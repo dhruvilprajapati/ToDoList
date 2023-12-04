@@ -10,7 +10,9 @@ app.use(express.static("public"));
 
 app.set('view engine', 'ejs');
 
-mongoose.connect("mongodb+srv://Dhruvil:7JV0gVUceMhn5XoP@cluster0.aocapva.mongodb.net/todolistDB");
+// retryWrites=true&w=majority"
+// "mongodb+srv://Dhruvil:7JV0gVUceMhn5XoP@cluster0.aocapva.mongodb.net/todolistDB"
+mongoose.connect("mongodb+srv://root:JUJ4aRiYEHnaNvsd@to-do-list.gs8x4gh.mongodb.net/todolistDB");
 
 const itemsSchema = {
     name: String
