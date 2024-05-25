@@ -13,7 +13,7 @@ app.set('view engine', 'ejs');
 // retryWrites=true&w=majority"
 // "mongodb+srv://Dhruvil:7JV0gVUceMhn5XoP@cluster0.aocapva.mongodb.net/todolistDB"
 //mongodb+srv://root:JUJ4aRiYEHnaNvsd@to-do-list.gs8x4gh.mongodb.net/todolistDB
-mongoose.connect("mongodb+srv://root:dp@4545@to-do-list.gs8x4gh.mongodb.net/?retryWrites=true&w=majority&appName=to-do-list");
+mongoose.connect("mongodb+srv://Dhruvil:dp@4545@to-do-list.gs8x4gh.mongodb.net/?retryWrites=true&w=majority&appName=to-do-list");
 
 const itemsSchema = {
     name: String
